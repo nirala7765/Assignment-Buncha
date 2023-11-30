@@ -78,8 +78,8 @@ function meetingPoint(n, m, horsePosition, bishopPosition, inactivePositions) {
 
 const n = 8; 
 const m = 8;
-const horsePosition = [5, 5]; 
-const bishopPosition = [2, 3]; 
+const horsePosition = [6, 6]; 
+const bishopPosition = [3, 2]; 
 const inactivePositions = new Set(['0,3', '2,0']); 
 
 const meetingPointResult = meetingPoint(n, m, horsePosition, bishopPosition, inactivePositions);
